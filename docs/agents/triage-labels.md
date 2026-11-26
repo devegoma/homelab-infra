@@ -1,11 +1,11 @@
-# Triage labels
+# トリアージ用ラベル
 
-Use the tracker label that corresponds to each role named by a skill.
+スキルが指定する役割に対応する GitHub ラベルを使う。
 
-| Role | GitHub label | Meaning |
+| 役割 | GitHub ラベル | 意味 |
 | --- | --- | --- |
-| `needs-triage` | `needs-triage` | A maintainer needs to evaluate the issue. |
-| `needs-info` | `needs-info` | The issue is waiting for more information from the reporter. |
-| `ready-for-agent` | `ready-for-agent` | The issue is specified and ready for an agent to implement. |
-| `ready-for-human` | `ready-for-human` | The issue requires human implementation. |
-| `wontfix` | `wontfix` | The issue will be closed without implementation. |
+| `needs-triage` | `needs-triage` | メンテナーによる課題の確認が必要。 |
+| `needs-info` | `needs-info` | 報告者からの追加情報を待っている。 |
+| `ready-for-agent` | `ready-for-agent` | 要件が定まり、エージェントが実装に着手できる。 |
+| `ready-for-human` | `ready-for-human` | 人による実装が必要。 |
+| `wontfix` | `wontfix` | 実装せずに課題を閉じる。 |

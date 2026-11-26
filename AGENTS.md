@@ -1,17 +1,41 @@
-## Agent skills
+## エージェント向けスキル
 
-### Issue tracker
+### 課題管理
 
-Issues and specs live in GitHub Issues for `devegoma/homelab-infra`. Before reading or writing tickets, see `docs/agents/issue-tracker.md`.
+課題と仕様は `devegoma/homelab-infra` の GitHub Issues で管理する。チケットを読み書きする前に `docs/agents/issue-tracker.md` を参照する。
 
-### Triage labels
+### トリアージ用ラベル
 
-Before applying triage labels, use the role mapping in `docs/agents/triage-labels.md`.
+トリアージ用ラベルを付ける前に、`docs/agents/triage-labels.md` で役割とラベルの対応を確認する。
 
-### Domain docs
+### ドメイン文書
 
-This repo uses a single-context layout. Before exploring the repo, see `docs/agents/domain.md`.
+このリポジトリは単一のドメインコンテキストを扱う。リポジトリを調査する前に `docs/agents/domain.md` を参照する。
 
 ## ブランチのルール
 
 ブランチのルールとして新規に機能やファイルの追加を行う際は必ずdevelopブランチから新たにブランチを切りPRを作成すること
+
+## コミットメッセージのルール
+
+コミットメッセージの件名は [Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) に従い、`<type>(<scope>): <subject>` 形式で書く。`<scope>` を省略する場合は `<type>: <subject>` とする。
+件名の `<subject>` と、本文を付ける場合はその本文を日本語で書く。
+
+## コード・テスト・コミットログ・コメントの書き方
+
+- コードには、どう実現するか（How）を書く。
+- テストコードには、どのような振る舞いを期待するか（What）を書く。
+- コミットログには、なぜ変更したか（Why）を書く。
+- コードコメントには、なぜ他の実装方法を採らなかったか（Why not）を書く。
+
+## 実装の進め方
+
+実装は原則としてテスト駆動開発（TDD）で進める。期待する振る舞いをテストに書き、テストが失敗することを確認してから、テストを通すための実装を行う。
+
+## README の書き方
+
+README に記載する内容は、プロジェクトの概要、利用に必要なコマンド、関連ドキュメントへのリンクに限る。各項目はできるだけ簡潔にまとめる。
+
+## 日本語の文章の推敲
+
+日本語の文章を書いたり書き換えたりする際は、必ず `/yomiyasu` スキルを使って、書き込む前に推敲する。

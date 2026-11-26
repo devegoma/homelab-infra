@@ -1,7 +1,7 @@
-# Domain docs
+# ドメイン文書
 
-This repository uses a single-context layout. Before exploring the repository, read the root `GLOSSARY.md` if present and any relevant architecture decision records (ADRs) in `docs/adr/`. Continue silently when either location is absent.
+このリポジトリは単一のドメインコンテキストを扱う。リポジトリを調査する前に、ルートに `GLOSSARY.md` があれば読む。`docs/adr/` に関連するアーキテクチャ決定記録（ADR）があれば、それも読む。どちらかが存在しない場合は、その旨を報告せずに作業を続ける。
 
-Use glossary terms in issue titles, proposals, and test names. If a term is missing and the distinction matters, raise it for `domain-modeling` when the team can resolve it.
+課題のタイトル、提案、テスト名には用語集の用語を使う。必要な用語が用語集になく、その区別が重要な場合は、チームで検討できる段階で `domain-modeling` スキルの対象として取り上げる。
 
-If a proposal conflicts with an existing ADR, name the ADR and explain why the decision should be reopened. Add glossary entries and ADRs when their terms or decisions are settled.
+提案が既存の ADR と矛盾する場合は、該当する ADR を示し、その決定を見直す理由を説明する。用語や決定が確定したら、用語集に項目を追加し、決定を ADR に記録する。
